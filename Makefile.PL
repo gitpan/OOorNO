@@ -5,9 +5,9 @@ require 5.6.0;
 # the contents of the Makefile that is written.
 WriteMakefile
    (
-   'ABSTRACT'     => 'Transparently handles @_ for your class',
+   'ABSTRACT'     => 'Handles "@_" for your own class methods',
    'AUTHOR'       => 'Tommy Butler <cpan@atrixnet.com>',
-   'INSTALLDIRS'  => 'perl',
+   'INSTALLDIRS'  => 'site',
    'NAME'         => 'OOorNO',
    'VERSION_FROM' => 'OOorNO.pm',
    'linkext'      => { LINKTYPE => '' }, # no link needed
@@ -19,19 +19,3 @@ WriteMakefile
          'ZIPFLAGS'  => '-rl',
       }
    );
-
-__END__
-   * NAME
-   * SYNOPSIS
-   * DESCRIPTION
-   * INSTALLATION
-   * EXPORT
-   * EXPORT_OK
-   * GLOBAL VARIABLES
-   * PUBLIC METHODS
-   * PRIVATE METHODS
-   * EXAMPLES
-   * BUGS
-   * AUTHOR
-   * COPYRIGHT
-   * SEE ALSO
