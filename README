@@ -2,7 +2,6 @@ OOorNO version 0.00_6
 ==========================
 
 DESCRIPTION
-
 Transparently handles @_ for your class methods whether they were
 called in OO style or not.
 
@@ -20,7 +19,6 @@ CHANGES IN LAST FEW RELEASES
 
 
 INSTALLATION
-
 To install this module type the following:
 
    perl Makefile.PL

@@ -100,25 +100,32 @@ sub DESTROY { } sub AUTOLOAD { }
 =pod
 
 =head1 NAME
+
 OOorNO - Transparently handles @_ for your class methods whether they were
 called in OO style or not.
 
 =head1 VERSION
+
 0.00_6
 
 =head1 @ISA
+
    Exporter
 
 =head1 @EXPORT
+
 None by default.
 
 =head1 @EXPORT_OK
+
 All available methods.
 
 =head1 %EXPORT_TAGS
+
    :all (exports all of @EXPORT_OK)
 
 =head1 Methods
+
    coerce_array()
    myargs()
    myself()
@@ -126,18 +133,23 @@ All available methods.
    shave_opts()
 
 =head2 AUTOLOAD-ed methods
+
 none
 
 =head1 PREREQUISITES
+
 none
 
 =head1 AUTHOR
+
 Tommy Butler <cpan@atrixnet.com>
 
 =head1 COPYRIGHT
+
 Copyright(c) 2001-2003, Tommy Butler.  All rights reserved.
 
 =head1 LICENSE
+
 This library is free software, you may redistribute
 and/or modify it under the same terms as Perl itself.
 
