@@ -2,7 +2,7 @@ package OOorNO;
 use strict;
 use vars qw( $VERSION   @ISA   @EXPORT_OK   %EXPORT_TAGS );
 use Exporter;
-$VERSION     = 0.00_5; # 12/23/02, 12:48 am
+$VERSION     = 0.00_6; # 12/23/02, 12:48 am
 @ISA         = qw( Exporter );
 @EXPORT_OK   = qw( shave_opts   coerce_array   OOorNO   myargs   myself );
 %EXPORT_TAGS = ( 'all' => [ @EXPORT_OK ] );
@@ -104,7 +104,7 @@ OOorNO - Transparently handles @_ for your class methods whether they were
 called in OO style or not.
 
 =head1 VERSION
-0.00_5
+0.00_6
 
 =head1 @ISA
    Exporter

@@ -1,4 +1,4 @@
-OOorNO version 0.00_5
+OOorNO version 0.00_6
 ==========================
 
 DESCRIPTION
@@ -10,8 +10,12 @@ called in OO style or not.
 CHANGES IN LAST FEW RELEASES
 (listed in reverse cronological order by date and subversion)
 
+   0.00_6
+      12/23/02, 2:01 pm
+      Miscellaneous optimizations
+
    0.00_5
-      Monday, December 23, 2002, 2:47 am
+      12/23/02, 2:47 am
       Initial release of OOorNO.pm
 
 
